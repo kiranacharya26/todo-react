@@ -1,39 +1,52 @@
-npm i,
+## Getting Started
+
+```bash
+npm i
 npm start
+ Description
+Responsive todo application built with React. Clean UI with smooth animations and task management capabilities.
 
-Responsive todo application built with React.clean UI with smooth animations and  task management capabilities.
+ Features
+Clean UI with smooth animations
 
-Features:
+Task detail modal with inline editing
 
- Clean UI with smooth animations
- Task detail modal with inline editing
- task filtering and search
- pagination for better performance with large lists
+Task filtering and search
 
-Note:
+Pagination for better performance with large lists
 
- Used React Context for state management 
- Implemented pagination (10 items per page) to handle large task lists efficiently
- New tasks appear at the top for better UX
- Added task detail view with edit/status management
+ Note
+Used React Context for state management
 
-Improvements:
+Implemented pagination (10 items per page) to handle large task lists efficiently
 
- Added task detail modal with edit capabilities
- Improved task list performance with pagination
- Enhanced mobile responsiveness
- Implemented proper error handling for task operations
+New tasks appear at the top for better UX
 
-Assumptions 
+Added task detail view with edit/status management
 
- Tasks should appear newest first (better UX for active lists)
- Task IDs are unique and auto incrementing
- Local state is sufficient 
- Mobilefirst approach for responsive design
+ Improvements
+Added task detail modal with edit capabilities
 
-Future Improvements
+Improved task list performance with pagination
 
- Integrating backend so data will not be lost
- Implement drag and drop for reordering
- Include task categories
- Adding keyboard shortcuts
+Enhanced mobile responsiveness
+
+Implemented proper error handling for task operations
+
+ Assumptions
+Tasks should appear newest first (better UX for active lists)
+
+Task IDs are unique and auto-incrementing
+
+Local state is sufficient
+
+Mobile-first approach for responsive design
+
+ Future Improvements
+Integrating backend so data will not be lost
+
+Implement drag and drop for reordering
+
+Include task categories
+
+Adding keyboard shortcuts
