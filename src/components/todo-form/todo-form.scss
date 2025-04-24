@@ -1,6 +1,6 @@
 .todo-form {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 12px;
   width: 100%;
 
@@ -12,6 +12,9 @@
     font-size: 14px;
     transition: all var(--transition-speed);
     background: white;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 24px;
 
     &:focus {
       outline: none;
@@ -38,6 +41,7 @@
     align-items: center;
     gap: 8px;
     white-space: nowrap;
+    height: 40px;
 
     &:hover {
       background: var(--primary-dark);
@@ -58,10 +62,26 @@
 
   @media (max-width: 768px) {
     flex-direction: column;
+    gap: 12px;
+
+    input {
+      width: 100%;
+      padding: 8px 10px;
+      font-size: 14px;
+      height: 36px;
+    }
 
     button {
       width: 100%;
+      padding: 8px 12px;
       justify-content: center;
+      font-size: 14px;
+      height: 36px;
+
+      svg {
+        width: 12px;
+        height: 12px;
+      }
     }
   }
 }

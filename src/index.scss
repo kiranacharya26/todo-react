@@ -23,12 +23,24 @@ body {
 }
 
 .root {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   background: white;
   border-radius: var(--border-radius);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+
+  .root {
+    max-width: 100%;
+    min-height: 100vh;
+    border-radius: 0;
+  }
 }
 
 .app-header {

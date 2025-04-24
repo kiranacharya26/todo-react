@@ -109,7 +109,6 @@ export const App = () => {
     <div className="root">
       <header className="app-header">
         <h1>Task Manager</h1>
-        <p>Organize your tasks efficiently</p>
       </header>
       <TodosContext.Provider value={{ todos: filteredTodos, setTodos }}>
         <div className="app-controls">
