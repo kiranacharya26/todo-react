@@ -1,3 +1,6 @@
+npm i
+npm start
+
 Responsive todo application built with React.clean UI with smooth animations and  task management capabilities.
 
 Features:
