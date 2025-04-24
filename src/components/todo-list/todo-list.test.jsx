@@ -27,7 +27,7 @@ describe('TodoList', () => {
 
     it('shows empty state message when no tasks exist', () => {
         renderWithContext(<TodoList />, { todos: [] });
-        expect(screen.getByText("Looks like you're up for a challenge!")).toBeInTheDocument();
+        expect(screen.getByText("There are no tasks to show")).toBeInTheDocument();
     });
 
     it('filters tasks correctly', () => {
